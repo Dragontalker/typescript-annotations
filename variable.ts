@@ -1,3 +1,2 @@
 let app: number = 5;
-
-app = "5";
+let speed: string = 'fast';
