@@ -36,7 +36,7 @@ console.log(coordinates); // {x: 10, y:20};
 
 // 2) When we decalre a variable on one line and initialize it later
 let words = ['red', 'green', 'blue'];
-let foundWord;
+let foundWord: boolean;
 
 for (let i = 0; i < words.length; i++) {
   if (words[i] === 'green') {
